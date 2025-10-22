@@ -1,0 +1,180 @@
+{
+  "colors": {
+    "primary": {
+      "DEFAULT": "hsl(var(--primary))",
+      "foreground": "hsl(var(--primary-foreground))",
+      "description": "Main brand color - Blue gradient system"
+    },
+    "secondary": {
+      "DEFAULT": "hsl(var(--secondary))",
+      "foreground": "hsl(var(--secondary-foreground))",
+      "description": "Secondary accent color"
+    },
+    "accent": {
+      "DEFAULT": "hsl(var(--accent))",
+      "foreground": "hsl(var(--accent-foreground))",
+      "description": "Accent highlights"
+    },
+    "background": {
+      "DEFAULT": "hsl(var(--background))",
+      "description": "Main background color - White/Dark based on theme"
+    },
+    "foreground": {
+      "DEFAULT": "hsl(var(--foreground))",
+      "description": "Main text color"
+    },
+    "card": {
+      "DEFAULT": "hsl(var(--card))",
+      "foreground": "hsl(var(--card-foreground))",
+      "description": "Card background and text"
+    },
+    "muted": {
+      "DEFAULT": "hsl(var(--muted))",
+      "foreground": "hsl(var(--muted-foreground))",
+      "description": "Muted backgrounds and text"
+    },
+    "popover": {
+      "DEFAULT": "hsl(var(--popover))",
+      "foreground": "hsl(var(--popover-foreground))",
+      "description": "Popover/dropdown backgrounds"
+    },
+    "border": {
+      "DEFAULT": "hsl(var(--border))",
+      "description": "Border color"
+    },
+    "input": {
+      "DEFAULT": "hsl(var(--input))",
+      "description": "Input border color"
+    },
+    "ring": {
+      "DEFAULT": "hsl(var(--ring))",
+      "description": "Focus ring color"
+    },
+    "destructive": {
+      "DEFAULT": "hsl(var(--destructive))",
+      "foreground": "hsl(var(--destructive-foreground))",
+      "description": "Error/destructive actions"
+    },
+    "gradient": {
+      "primary": "linear-gradient(135deg, #00C8FF 0%, #0070F3 100%)",
+      "description": "Primary blue gradient used in hero sections"
+    }
+  },
+  "spacing": {
+    "0": "0px",
+    "1": "0.25rem",
+    "2": "0.5rem",
+    "3": "0.75rem",
+    "4": "1rem",
+    "5": "1.25rem",
+    "6": "1.5rem",
+    "8": "2rem",
+    "10": "2.5rem",
+    "12": "3rem",
+    "16": "4rem",
+    "20": "5rem",
+    "24": "6rem",
+    "32": "8rem",
+    "description": "Tailwind default spacing scale"
+  },
+  "borderRadius": {
+    "none": "0px",
+    "sm": "0.125rem",
+    "DEFAULT": "0.25rem",
+    "md": "0.375rem",
+    "lg": "0.5rem",
+    "xl": "0.75rem",
+    "2xl": "1rem",
+    "3xl": "1.5rem",
+    "full": "9999px",
+    "description": "Border radius values - base is 1rem for cards"
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": [
+        "system-ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "Segoe UI",
+        "Roboto",
+        "Helvetica Neue",
+        "Arial",
+        "sans-serif"
+      ],
+      "mono": [
+        "ui-monospace",
+        "SFMono-Regular",
+        "SF Mono",
+        "Menlo",
+        "Consolas",
+        "Liberation Mono",
+        "monospace"
+      ]
+    },
+    "fontSize": {
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+      "5xl": "3rem",
+      "6xl": "3.75rem",
+      "7xl": "4.5rem",
+      "8xl": "6rem",
+      "9xl": "8rem"
+    },
+    "fontWeight": {
+      "thin": "100",
+      "extralight": "200",
+      "light": "300",
+      "normal": "400",
+      "medium": "500",
+      "semibold": "600",
+      "bold": "700",
+      "extrabold": "800",
+      "black": "900"
+    },
+    "lineHeight": {
+      "none": "1",
+      "tight": "1.25",
+      "snug": "1.375",
+      "normal": "1.5",
+      "relaxed": "1.625",
+      "loose": "2"
+    }
+  },
+  "shadows": {
+    "sm": "0 1px 2px 0 rgb(0 0 0 / 0.05)",
+    "DEFAULT": "0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)",
+    "md": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+    "lg": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+    "xl": "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+    "2xl": "0 25px 50px -12px rgb(0 0 0 / 0.25)",
+    "inner": "inset 0 2px 4px 0 rgb(0 0 0 / 0.05)",
+    "none": "0 0 #0000"
+  },
+  "animation": {
+    "duration": {
+      "fast": "150ms",
+      "normal": "300ms",
+      "slow": "500ms"
+    },
+    "easing": {
+      "ease": "cubic-bezier(0.4, 0, 0.2, 1)",
+      "easeIn": "cubic-bezier(0.4, 0, 1, 1)",
+      "easeOut": "cubic-bezier(0, 0, 0.2, 1)",
+      "easeInOut": "cubic-bezier(0.4, 0, 0.2, 1)"
+    }
+  },
+  "breakpoints": {
+    "sm": "640px",
+    "md": "768px",
+    "lg": "1024px",
+    "xl": "1280px",
+    "2xl": "1536px",
+    "description": "Responsive breakpoints"
+  }
+}
